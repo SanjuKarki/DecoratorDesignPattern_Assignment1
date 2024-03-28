@@ -1,3 +1,7 @@
+using DecoratorDP.Components;
+
+namespace DecoratorDP.Decorators;
+
 public class PlainDecorator : Decorator<string>
 {
     public PlainDecorator(IComponent<string> component) : base(component)

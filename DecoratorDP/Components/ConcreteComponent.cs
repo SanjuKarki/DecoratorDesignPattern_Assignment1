@@ -1,3 +1,5 @@
+namespace DecoratorDP.Components;
+
 public class ConcreteComponent : IComponent<string>
 {
     public string GetText()

@@ -1,3 +1,7 @@
+using DecoratorDP.Components;
+
+namespace DecoratorDP.Decorators;
+
 public abstract class Decorator<T> : IComponent<T>
 {
     protected IComponent<T> component;

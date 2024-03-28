@@ -1,4 +1,9 @@
-﻿public class Program
+﻿using DecoratorDP.Components;
+using DecoratorDP.Decorators;
+
+namespace StringDecorator;
+
+public class Program
 {
     public static void Main(string[] args)
     {
